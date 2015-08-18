@@ -9,6 +9,6 @@ One major issue (yet to be resolved) is the unicode formatting in the output fil
 
 Another problem is the encoded data prior to around 2008, which is all contained in a single cell of the CSV file, rather than separated by features. In some cases, the relevant features can be found in the text. The next step, which I have yet to implement, is a tokenization of this text with a view to populating the relevant feature columns in the Pandas DataFrame.
 
-Once this is complete the data will offer a more robust foundation for testing different machine learning models to the data to see what happens. 
+I concatenated the individual CSV files into a global data file. There is an incomplete script (gphg-selector.py) to automatically add a binary value for each watch according to whether it was pre-selected for the final awards or not. I would like to do the same for the winners of the individual category prizes, too. Once this is complete the data will offer a more robust foundation for testing different machine learning models to the data to see what happens. 
 
 I'm sure the code could be improved and simplified (I'm a relative newbie at python, data mining and machine learning). In particular, I have yet to grasp the construction and use of functions, which I'm sure would help here. Any comments are welcome.
